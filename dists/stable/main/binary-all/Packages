@@ -1,0 +1,28 @@
+Package: ros-log-cleanup
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: Your Name <your.email@example.com>
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: systemd, findutils, coreutils
+Filename: pool/main/ros-log-cleanup_1.0.0_all.deb
+Size: 5648
+MD5sum: c8874de66c6731cf962c7c686d6e7afb
+SHA1: b72742cd7814f3ce388af0fbba3c00e68a1ac3e5
+SHA256: cddb83b40dc6ae5155386a9a5921e7edd483edcbdb78a37a9e906844150aa4be
+SHA512: 53870b87f5421d9c0d14e491cbab3ec54e2a00fe30a8d30723b1d1f300d1822fb2552e819b49b9842b729ad40c9ad9fb02b0948cd784c2ffb784dafca0d13e79
+Homepage: https://github.com/yourusername/ros-log-cleanup
+Description: ROS Log Cleanup Service
+ Automatic cleanup service for ROS log directories.
+ This package provides a systemd service and timer that automatically
+ cleans up old log files from ROS log directories. It removes files
+ older than 3 days and empty directories to prevent disk space issues.
+ .
+ Features:
+  - Automatic cleanup of files older than 3 days
+  - Removal of empty directories
+  - Configurable log directory path
+  - Service log rotation (10MB limit)
+  - Systemd timer integration (runs every 2 hours)
+
