@@ -26,3 +26,30 @@ Description: ROS Log Cleanup Service
   - Service log rotation (10MB limit)
   - Systemd timer integration (runs every 2 hours)
 
+Package: wifi-recovery
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: net
+Maintainer: AGX Development Team <dev@agx.com>
+Depends: network-manager, wireless-tools, systemd
+Filename: pool/main/wifi-recovery_1.0.0_all.deb
+Size: 6738
+MD5sum: 6b71d16977ad0efa6bf14ac901028f60
+SHA1: 7936047b55c73047eb143d406f15e87d0f42d977
+SHA256: 33c37f5d30ce98600156ceae98a845fc1a46c75f03d141752cb12c5deda7ac51
+SHA512: 1ce2c15a397916f5d6ffd84540ef817bf38913eb557b7a8364df1db66f2055b8cfc57b7394c3f4434b86f743d2f68dd95b174791dab3e11440bcfedfe89925d1
+Description: WiFi Recovery Service
+ A systemd service that automatically monitors and recovers WiFi connections.
+ This service checks antenna connection status and attempts to restore WiFi
+ connectivity when issues are detected. It includes comprehensive logging
+ and retry mechanisms for robust WiFi management.
+ .
+ Features:
+  - Automatic WiFi status monitoring
+  - Antenna connection verification
+  - Automatic connection recovery
+  - Comprehensive logging with log rotation
+  - Support for saved WiFi connections
+  - Driver reload capabilities
+
