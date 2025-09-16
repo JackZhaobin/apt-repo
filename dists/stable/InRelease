@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: all
+Codename: stable
+Components: main
+Date: Tue, 16 Sep 2025 07:03:48 +0000
+Description: APT Repository
+Label: Repository
+Origin: YourName
+Suite: stable
+MD5Sum:
+ f626bb9092d6ef42ebfc667b926aa88c              168 Release
+ 7011d5085cab13d6dbf6b333a65861d4             1147 main/binary-all/Packages
+ 63d6b48f7072614c7e6bbf338d3bd741              704 main/binary-all/Packages.gz
+SHA1:
+ 99181dce13839ae0fc03d9913b524601dc0950cc              168 Release
+ 9637889ce11edcabf25b68c30761978474ac629c             1147 main/binary-all/Packages
+ 05699294a2276ce0afc50ed25cbaab28bb1948fa              704 main/binary-all/Packages.gz
+SHA256:
+ 46d65f5a9b87c80c62999dc481cbff1c4e93aa3a441b291c02d64f739dafccf7              168 Release
+ 58c47db840f34ef7195359c84ff109ef0b462d69f040fb309302006e0a455912             1147 main/binary-all/Packages
+ 30fc29ad42006e2e9e13cdfce0dc721a33b842579953baee805099d6930dc72b              704 main/binary-all/Packages.gz
+SHA512:
+ ef73f53e95b312b9fb7ceb2a12bf430ba083010f7899b241807ac61008e43cee8412e66f62423b70bb6fae0e673ed599b7a7afe37fcad495c39e1a25bbd1981b              168 Release
+ 749bb973bbb4762b9ade11e9dba372fef2e29b951d2275b533c56c1008ca0b0e9ad5b21f9705375b23d4c16982dd50cf6ab81d7be2ecfffc0792d9782cf8979f             1147 main/binary-all/Packages
+ a5246d2e4ea4e64e4b165643d761f62680499eb95e2e7a4085615f62a3af5a5ca4b5da39179a25b43529d41cd776b38ea0d838b85f10f9d06bf7e0ba5f171f33              704 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+ARdP9geD4cdpTIeL2BBcO9NhBMFAmjJF/IACgkQL2BBcO9N
+hBNA6Qv+JatyV2FIY2Er6pMJlZbbXSEZWKyvHgu5lrs7TNgr7w505y9SRFGyytik
+DLzvcEdDuaJiQgQexB3UB7S+sNFFksUPOPcGm+mgPOBXR/iuiFT9Aa9AvXMBno28
+TPVm51MRtkvwo+5pa7uMmaCQd83bjK/zipyD+EPcw5oAum/BDOXJoVlawmYo6WzG
+Wedr6KGYd/KtzkwsuSbE/YkAV4dVgIncZUBe5e4ZXAm08ErEYL9ETVWBcCsuQdEB
+utOM+lhXlNQG7FrRZCUfTaCY3emRtv+Zj7LWrVw4MCvnV83431hlEwN1VJFH4s4R
+BWE+0A05jsjGi+1H6qgNn+9TORVgbmZVwGVJ1bP986ZO7crNYbnO5wWnqdnR00F/
+L51CYWuhiYe0/+uPdZB3s0BMr4fAIuBlb1ZGOQfVGYQtea9b7vW7k6RXe+OSSK1B
+J7rYXx1i/vgMEQb1IDGP9R0g4NsI5mdohv5L3ID3ntvOT63zSf/YEX5dgS0exf0x
+W9aliKJp
+=ajFJ
+-----END PGP SIGNATURE-----
